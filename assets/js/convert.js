@@ -35,7 +35,7 @@ function parse(color,param){
 
 // convert input value to opposite color-code
 function convert(){
-    let cTmp; let rgb; let colorStr; let output; let lum; let fontColor; let bgColor; let c1; let c2; let bg1; let bg2;
+    let cTmp, rgb, colorStr, output, lum, fontColor, bgColor, c1, c2, bg1, bg2;
 
     // get color from input
     const color = document.getElementById('color').value;
